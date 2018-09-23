@@ -4,5 +4,8 @@
 @import "{{ site.theme }}";
 
 body {
-  
+ .caption {
+   color: gray;
+   font-size: 0.9rem;
+ } 
 }
