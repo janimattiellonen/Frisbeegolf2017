@@ -7,5 +7,21 @@ body {
  .caption {
    color: gray;
    font-size: 0.9rem;
+ }
+
+ .footer-col-2 {
+   width: calc(25% - (30px / 2));
+ }
+ 
+ .footer-col-3 {
+    width: calc(40% - (30px / 2));
  } 
+
+ @media screen and (max-width: 799px) {
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3 {
+    width: 100%;
+  }
+ }
 }
